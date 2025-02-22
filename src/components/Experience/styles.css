@@ -1,0 +1,47 @@
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.timeline-item {
+    padding: 20px;
+    border-left: 2px solid #ccc;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #ccc;
+    left: -11px;
+    top: 20px;
+}
+
+.timeline-content {
+    margin-left: 30px;
+}
+
+.duration {
+    color: #666;
+    font-style: italic;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background: #e1e1e1;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
