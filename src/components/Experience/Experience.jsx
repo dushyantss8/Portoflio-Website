@@ -1,4 +1,3 @@
-// import checkmarkImage from "../../assets/checkmark.png";
 import arrowImage from "../../assets/arrow.png";
 import "./styles.css";
 

@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Profile from "./components/Profile"
 import Projects from "./components/Projects"
+import Technologies from "./components/Technologies"
 
 const App = () => {
     return (
@@ -23,6 +24,9 @@ const App = () => {
 
             {/* Projects  */}
             <Projects />
+
+            {/* Technologies  */}
+            <Technologies />
 
             {/* Contact  */}
             <Contact />
